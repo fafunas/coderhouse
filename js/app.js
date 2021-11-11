@@ -3,7 +3,10 @@ var app = new Vue({
     data: {
       message: 'Hello Vue!',
       a : 10,
-      b : 15
+      b : 15,
+      activeColor: 'red',
+      fontSize: 30,
+      nombre:""
 
     },
     methods:{
