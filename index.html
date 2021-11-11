@@ -4,17 +4,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Iniciando Vue</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script defer src="js/app.js"></script>
     </head>
     <body>
-        <div class="contenedor">
-            <h1>Hola Mundo</h1>
-            <p>Con CoderHouse</p>
-            <p>By Fabian Santavicca</p>
+        <div id="app">
+          {{message}}
+          <button @click="alert()">Enviar</button>
+          <button @click="suma()">Sumar</button>
         </div>
+
+        
         
 
   
